@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HBZPxjyMVLKyH4s0UYP+JKE/l1JXBpF1N93MKxu8JC1tcciSd+0KcaoAm2O8qfW/JZ6df5xvX1SHPduFI4gnig==",
+  "dgSpecHash": "Pvefs+ttyqg98VrhJtND3PXzcjchJxc+Vh9/izS1a1UMep74A/OUZ3TbikGpsmtRVBYFUouc82m6A27EqPsW3A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\projects\\hashgit\\PeopleApp\\PeopleApp.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\projects\\lesson06\\PeopleApp\\PeopleApp.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

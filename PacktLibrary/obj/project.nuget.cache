@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ye1kaNGTQcP+6CHXs2neh5OsRzxhUajl9B3sOs9Rzto0FxTxuck1egq2OoDL0fIIW9Gex52MxhjxP4CpjxmKZQ==",
+  "dgSpecHash": "a3TXwlVne2YQzl1vIvRH4DjsRWKiYSg45V68Xg6HmT1hoRJooXc+CoMDdk7vnJPGPJdLhtNLDh3nSnFtvJVvfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Alex\\Documents\\projects\\hashgit\\PacktLibrary\\PacktLibrary.csproj",
+  "projectFilePath": "C:\\Users\\Alex\\Documents\\projects\\lesson06\\PacktLibrary\\PacktLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
