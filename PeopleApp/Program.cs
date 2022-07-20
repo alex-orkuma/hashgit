@@ -58,6 +58,47 @@ namespace Basics
             WriteLine($"The thing with string: {t2.Process("apple")}");
 
 
+            var gt1 = new GenericThing<int>();
+            gt1.Data = 42;
+            WriteLine($"GenericThing with integer : {gt1.Process(42)}");
+
+            var gt2 = new GenericThing<string>();
+            gt2.Data = "apple";
+
+            WriteLine($"Genericthing with string: {gt2.Process("apple")}");
+
+
+            var dv1 = new DisplacementVector(3, 5);
+            var dv2 = new DisplacementVector(-2, 7);
+
+            var dv3 = dv1 + dv2;
+
+            WriteLine($"({dv1.X }, {dv1.Y}) + ({dv2.X}, {dv2.Y}) = ({dv3.X}, {dv3.Y})");
+
+
+            Employee Alex = new Employee
+            {
+                Name = "Alex",
+                DateOfBirth = new DateTime(1992, 6, 1),
+                EmployeeCode = "HDSE001",
+                HireDate = new DateTime(2021, 3, 3)
+        
+            };
+
+            Alex.WritToConsole();
+            WriteLine($"{Alex.Name} was hired on {Alex.HireDate:dd/MM/yy}");
+
+
+            try
+            {
+                Alex.Timetravel(new DateTime( 1997, 3, 4));
+                Alex.Timetravel(new DateTime(1990, 5, 6));
+            }
+            catch (PersonException ex)
+            {
+
+                WriteLine(ex.Message);
+            }
 
         }
 

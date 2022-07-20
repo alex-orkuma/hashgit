@@ -11,9 +11,9 @@ public class Person : IComparable<Person>
 
     public void WritToConsole()
     {
-        WriteLine($"{0}, was born in on a {DateOfBirth:dddd}");
+        WriteLine($"{Name}, was born  on a {DateOfBirth:dddd}");
     }
-    s
+    
     public static Person Procreate(Person p1, Person p2)
     {
         var baby = new Person
@@ -57,5 +57,18 @@ public class Person : IComparable<Person>
     public int CompareTo(Person other)
     {
         return Name.CompareTo(other.Name);
+    }
+
+    public void Timetravel(DateTime when)
+    {
+        if (when <= DateOfBirth)
+        {
+            throw new PersonException("If you travel back in time to a date ealier than your birth, then the universe will explode");
+
+        }
+        else
+        {
+            WriteLine($"Welcome to {when:yyyy}!");
+        }
     }
 }
